@@ -1,0 +1,8 @@
+body { margin: 0; font-family: Arial; background: #0b132b; color: white; }
+.nav { display: flex; justify-content: space-between; padding: 15px; background: #1c2541; }
+.nav a { color: white; margin: 0 10px; text-decoration: none; }
+.form { max-width: 400px; margin: 40px auto; display: flex; flex-direction: column; gap: 10px; }
+input, select, button { padding: 10px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; padding: 30px; }
+.card { background: #3a86ff; padding: 30px; text-align: center; border-radius: 10px; color: white; }
+.center { text-align: center; margin-top: 80px; }
